@@ -98,7 +98,7 @@ if __name__ == "__main__":
                 if titleTable[index] is None:
                     titleTable[index] = []
                 else:
-                    titleCollisions += len(titleTable[index])
+                    titleCollisions += 1
 
                 titleTable[index].append(movie)
 
@@ -124,7 +124,7 @@ if __name__ == "__main__":
                 if quoteTable[index] is None:
                     quoteTable[index] = []
                 else:
-                    quoteCollisions += len(quoteTable[index])
+                    quoteCollisions += 1
 
                 quoteTable[index].append(movie)
 
