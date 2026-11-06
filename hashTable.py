@@ -25,14 +25,14 @@ def hashFunction1(stringData):
     #weak hash function that will 100% cause collisions
     if stringData == "":
         return 0
-    return ord(stringData[0])
+    return ord(stringData[0])/13
 
 
 def hashFunction2(stringData):
     #stronger hash function that should cause less collissions
     index = 0
     for letter in stringData:
-        index += ord(letter)
+        index = ord(letter)
     return index
 
 
