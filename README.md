@@ -17,4 +17,10 @@
 
   -Hash5
     The fifth hash function is just an attempt to mix the 3rd and 4th to see if I could get the best of both worlds
+
+
+Link to screenshots:
+
+
+https://docs.google.com/document/d/1gsp5gAUI-GAJoJNTbRJTDWdyqdOPGjwOmN6aIPVyLh0/edit?usp=sharing
     
