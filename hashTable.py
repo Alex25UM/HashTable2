@@ -25,7 +25,7 @@ def hashFunction1(stringData):
     #weak hash function that will 100% cause collisions
     if stringData == "":
         return 0
-    return ord(stringData[0])/13
+    return ord(stringData[0])/13 + ord(stringData[1]
 
 
 def hashFunction2(stringData):
