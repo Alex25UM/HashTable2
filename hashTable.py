@@ -40,7 +40,7 @@ def hashFunction3(stringData):
     #polynomial hash function
     index = 0
     for letter in stringData:
-        index = index * 7 + ord(letter)
+        index = index * (7 * ord(letter))
     return index
 
 
@@ -48,7 +48,7 @@ def hashFunction4(stringData):
     #stronger polynomial hash function
     index = 0
     for letter in stringData:
-        index = index * ord(letter)
+        index = index * ord(letter)/31
     return index
 
 
