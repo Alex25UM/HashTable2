@@ -32,7 +32,7 @@ def hashFunction2(stringData):
     #stronger hash function that should cause less collissions
     index = 0
     for letter in stringData:
-        index = ord(letter)
+        index = ord(letter)/11
     return index
 
 
